@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Pick
+{% endblock %}
+
+{% block main %}
+    <tbody>
+        <div class="container">
+
+            <div class="section">
+                <p>Why not go back to...</p>
+                
+                <p style="font-size:50px">{{ name }}! &#128523;</p>
+                
+                <p>This place is located at <mark>{{ location }}</mark>.</p>
+                
+                <p>Your previous description of this place was: <mark>"{{ description }}"</mark>.</p>
+                
+                <p>The recorded price per pax was <mark>${{ price }}</mark>.</p>
+
+                <p>Want another idea? Refresh this page to get a new selection.</p>
+            </div>
+        </div>
+    </tbody>
+{% endblock %}

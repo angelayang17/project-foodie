@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add Entry
+{% endblock %}
+
+{% block main %}
+    <h2>More food? Yes please!</h2>
+    <p></p>
+        <form action="/add" method="post">
+            <div class="form-group">
+                <input autocomplete="off" autofocus class="form-control" name="name" placeholder="Name" type="text">
+            </div>
+            <div class="form-group">
+                <input autocomplete="off" class="form-control" name="location" placeholder="Location" type="text">
+            </div>
+            <div class="form-group">
+                <input autocomplete="off" class="form-control" name="description" placeholder="A short description" type="text">
+            </div>
+            <div class="form-group">
+                <input autocomplete="off" class="form-control" min="0" name="price" placeholder="Approx. price/pax" type="number">
+            </div>
+            <button class="btn btn-primary" type="submit">Add Entry</button>
+        </form>
+{% endblock %}

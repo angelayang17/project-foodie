@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Explore
+{% endblock %}
+
+{% block main %}
+    <h2>Here's what other users have been saving! &#128525;</h2>
+    <p></p>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for place in places %}
+                <tr>
+                    <td>{{ place["name"] }}</td>
+                    <td>{{ place["location"] }}</td>
+                    <td>{{ place["description"] }}</td>
+                    <td>{{ place["price"] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    <h3>Refresh this page to generate more eateries &#128523;</h3>
+{% endblock %}
