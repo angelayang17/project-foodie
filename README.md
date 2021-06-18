@@ -2,13 +2,13 @@
 #### Video Demo:  <https://youtu.be/xy2COcv9lmA>
 #### Description:
 foodie is an app that was created for people who can never decide where to eat (like me!), as part of the course requirements for [CS50's Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x). Users can register for an account and save the names of places that they liked eating at, so the next time they are unable to decide where to eat, they will be able to use foodie to randomly generate ideas for them based on their personal saved places.
-The design is largely based on PSET 9 of CS50, Finance.
+The design is largely based on Problem Set 9 of CS50, Finance.
 Languages and frameworks used:
 * Front end: HTML, CSS, Bootstrap
 * Back end: Python, SQL, Flask, Jinja
 
 **application.py** :
-This file contains all the Python code that helps the website to run. Flask and Jinja configurations are similar to PSET9. It also configures the CS50 library to use project.db as its database. 
+This file contains all the Python code that helps the website to run. Flask and Jinja configurations are declared, as well as a configuration for the CS50 library to use project.db as its database. 
 The following routes are included in application.py:
 * @/ (default): When logged in, this section routes to the homepage for users and allows them to see the five most recent places that they've saved. If the user is new and has yet to save any places, it renders the new user template which prompts users to get started by saving a place.
 * @/add: This section routes to a page where users can add new places that they've liked eating at to their own records. Users can also include the location, description and price of the food.
