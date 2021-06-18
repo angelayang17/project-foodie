@@ -1,7 +1,7 @@
 # foodie
 #### Video Demo:  <https://youtu.be/xy2COcv9lmA>
 #### Description:
-foodie is an app that was created for people who can never decide where to eat (like me!), as part of the course requirements for [CS50's Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x). Users can register for an account and save the names of places that they liked eating at, so the next time they are unable to decide where to eat, they will be able to use foodie to randomly generate ideas for them based on their personal saved places.
+foodie is a web application that was created for people who can never decide where to eat (like me!), as part of the course requirements for [CS50's Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x). Users can register for an account and save the names of places that they liked eating at, so the next time they are unable to decide where to eat, they will be able to use foodie to randomly generate ideas for them based on their personal saved places.
 The design is largely based on Problem Set 9 of CS50, Finance.
 Languages and frameworks used:
 * Front end: HTML, CSS, Bootstrap
